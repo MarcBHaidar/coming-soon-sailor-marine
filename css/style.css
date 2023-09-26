@@ -1393,3 +1393,39 @@ h1, h2, h3, h4, h5,
 .custom-pagination span {
   background: #e6e6e6;
   color: #000; }
+
+.logo-anchor{
+  filter: invert(100%);
+  -webkit-filter: invert(100%);
+  width: 16rem;
+}
+.mid-img{
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  align-items: center;
+}
+.footer-wrapper{
+  justify-content: space-around;
+  margin: auto;
+  width: 100%;
+  display: flex;
+  text-align: center;
+}
+.logo-footer{
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+} 
+
+@media all and (max-width: 425px) {
+  .footer-wrapper{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .logo-anchor{
+    width: 16rem !important;
+  }
+}
