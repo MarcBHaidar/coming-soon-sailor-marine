@@ -1404,6 +1404,7 @@ h1, h2, h3, h4, h5,
   justify-content: center;
   padding: 0;
   align-items: center;
+  padding: 50px;
 }
 .footer-wrapper{
   justify-content: space-around;
@@ -1427,5 +1428,8 @@ h1, h2, h3, h4, h5,
   }
   .logo-anchor{
     width: 16rem !important;
+  }
+  .mobile-no-gap{
+    margin: 2rem 0 0 0 !important;
   }
 }
